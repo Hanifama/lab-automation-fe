@@ -76,6 +76,7 @@ const Login = () => {
           </Box>
           <Button
             type="submit"
+            onClick={() => navigate("/dashboard")}
             fullWidth
             variant="contained"
             color="primary"
